@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "prototype",
+						"type": "address"
+					}
+				],
+				"name": "clone",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "proxy",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/lib/CloneFactory.sol": "ICloneFactory"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/lib/CloneFactory.sol": {
+			"keccak256": "0x9bee541a7aaf40c2b8d7f22ac6a771193edf0d5a5f675e74ac0aa4dbb871800e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c2b4da385fbc642e8d2cada8ae1497ea42e4a21067f9480658ebf576fdf53cd9",
+				"dweb:/ipfs/QmbvkQZBfsoHBgsMxrLB4KhEGQv3Gg7aWt3FtJiGAcEniZ"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,17 @@
+## InitializableERC721
+
+# 继承
+ERC721Enumerable, InitializableOwnable, Pausable
+
+# 构造函数参数
+inft = await InitializableERC721.deployed()
+
+# PUBLIC FUNCTIONS
+合约初始化 - initialize() [参数详解见接口文档]
+inft.initialize("该nft的管理员", "开售时间", "结束时间", "定价token", "接收付款地址", "该nft最大发行量", "Name", "Symbol", "URI")
+inft.initialize("0xdbEEE1FdD8a94390040e7890B5f071E173260d5f", "1632931200", "1633017600", "0x146Fc0fBFe232294e115463402aE857C6f29786B", "0x7Ac3Fa45E5D65D4A099B40DdC183894C4b166B64", "5", "TestNFTToken", "TNT", "erty")
+
+NFT上架售卖 - setUpSale()
+inft.setUpSale("1632931200", "1632931200", "0xdbEEE1FdD8a94390040e7890B5f071E173260d5f", "0xdbEEE1FdD8a94390040e7890B5f071E173260d5f")
+inft.setUpSale("1632931200", "1632931200", "0xdbEEE1FdD8a94390040e7890B5f071E173260d5f", "0xdbEEE1FdD8a94390040e7890B5f071E173260d5f")
+
